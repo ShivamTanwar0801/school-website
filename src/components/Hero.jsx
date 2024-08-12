@@ -5,8 +5,8 @@ import school from "/videos/school.mp4";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-visible">
-      <div className="bg-color-6 w-full h-[716px]">
+    <div className="relative overflow-visible pt-[5.25rem]">
+      <div className="w-full h-[716px]">
         <div className="container pt-[4rem]" id="hero">
           <div className="max-w-[62rem] mx-auto text-center">
             <h1 className="h1 text-n-1">

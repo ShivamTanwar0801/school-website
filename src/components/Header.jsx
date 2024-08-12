@@ -46,7 +46,7 @@ const Header = () => {
   return (
     <div
       className={`fixed top-0 left-0 w-full z-[100] ${
-        isScrolling ? "bg-black" : "bg-color-6"
+        isScrolling ? "bg-black" : ""
       } transition-colors`}
     >
       <div className="flex items-center px-5 lg:px-[30px] xl:px-10 max-lg:py-4 container">

@@ -25,9 +25,9 @@ const Academics = () => {
           </Button>
         </div>
       </div>
-      <div className="mt-4 flex gap-4 px-4">
+      <div className="mt-4 flex gap-4 px-4 flex-wrap flex-col md:flex-row">
         {curriculum.map((item) => (
-          <div key={item.id} className="border flex-1 border-color-8">
+          <div key={item.id} className="border flex-1 border-color-8 min-w-[205px]">
             <div className="max-w-[258px]">
               <h3 className="font-semibold text-[24px] px-4 py-4 font-poppins">{item.grade}</h3>
             </div>

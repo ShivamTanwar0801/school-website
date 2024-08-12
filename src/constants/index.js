@@ -1,9 +1,11 @@
+import { info } from "autoprefixer";
 import {
   classroom,
   computerLab,
   cultural,
   gym,
   library,
+  principal,
   science,
   sportsday,
 } from "../assets";
@@ -68,8 +70,9 @@ export const about = [
     title: "Our Vision",
     info: "Our vision is to create a dynamic learning community where students are inspired to explore, innovate, and excel. We envision a school where every student is encouraged to reach their full potential, both academically and personally. We strive to cultivate future leaders who are compassionate & confident.",
   },
+  { id: "2", title: "Emma Williams", info: "Principal", image: principal },
   {
-    id: "2",
+    id: "3",
     title: "Principal's Message",
     info: "Welcome to Springdale Public School. As the Principal, I am deeply honored to lead a dedicated team that is committed to unlocking the full potential of every student. Our mission is to foster a dynamic learning environment where curiosity is not only encouraged but celebrated, creativity is nurtured, and academic excellence is pursued with enthusiasm and dedication. We are steadfast in our belief that education is a journey that extends beyond the classroom; it is about equipping our students with the essential skills, knowledge, and confidence they need to excel in all aspects of life.                                     Together with our passionate faculty, supportive parents, and engaged students, we are focused on creating a school culture that inspires a love of learning and a commitment to personal growth. We strive to provide opportunities that challenge our students and empower them to become thoughtful, innovative leaders who can contribute positively to society.",
   },
